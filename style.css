@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+
+
+.image{
+    height: 100vh;
+    position: relative;
+    
+
+}
+
+.image::before{
+    height: inherit;
+    width: 100%;
+    content: "";
+    background-image: url('bg.jpg');
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+
+.image h1{
+    height: 15vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+
+.image ul{
+    height: 65vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Italianno', cursive;
+
+}
+
+
+.image h3{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    margin: 558px 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.donate{
+    padding: 230px 100px;
+    position: absolute; 
+   
+}
+
+.donate img{
+    height: 320px;
+    width: 320px;
+    border: 3px solid black;
+    border-radius: 150px;
+    
+}
+form {
+
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 280px 0px;
+   
+    
+}
+
+
+.smile{
+    padding: 230px 1100px;
+    position: absolute; 
+  
+}
+
+
+.smile img{
+    height: 320px;
+    width: 320px;
+    border: 3px solid black;
+    border-radius: 150px;
+  
+}
+
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+    
